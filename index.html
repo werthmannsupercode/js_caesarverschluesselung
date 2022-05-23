@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesarcode</title>
+</head>
+
+<body>
+    <h1>Caesar Verschlüsselung</h1>
+    <section>
+        <p>Schreibe hier deinen Text, den du verschlüsseln möchtest:</p>
+        <input type="text" name="" id="inputText">
+        <p>Gib hier einen Schlüsselwert ein, nach dem das Geheimalphabet erstellt werden soll.</p>
+        <input type="number" name="" id="inputKey" min="1" max="25"><br>
+        <input type="submit" value="Text verschlüsseln" onclick="encode()">
+        <p id="outputText"></p>
+    </section>
+    <br>
+    <p>------------------------------------------------------------</p>
+    <br>
+    <section>
+        <p>Geheimbotschaft hier:</p>
+        <input type="text" name="" id="inputText2">
+        <p>Gib hier einen Schlüsselwert ein, nach dem du das Geheimalphabet erstellt hast.</p>
+        <input type="number" name="" id="inputKey2" min="1" max="25"><br>
+        <input type="submit" value="Geheimwort entschlüsseln" onclick="decode()">
+        <p id="outputText2"></p>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
